@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+nav {
+    border: 2px solid hsl(244, 89%, 33%);
+    border-radius: 2.2rem;
+    max-width: 600px;
+    margin: 0 auto 1rem;
+    font-size: 2rem;
+}
+
+h2 {
+    background:linear-gradient(to right, rgb(255, 200, 80), rgb(255, 134, 154));
+    color: rgb(16, 16, 155);
+    text-shadow: 1px 1px hsla(229, 100%, 72%, 0.8);
+    border-radius: 2rem 2rem 0 0;
+}
+
+li {
+    line-height: 3rem;
+    border-top: 1px solid rgb(16, 16, 155);
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+}
+
+li a, li a:visited {
+    color: rgb(16, 16, 155);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+li a:hover, li a:focus {
+    background-color: rgb(16, 16, 155);
+    color: rgb(255, 196, 85);
+}
+
+li:last-child a {
+    border-radius: 0 0 2rem 2rem;
+    font-weight: 600;
+}
+
+li:nth-child(3) a {
+    font-style: italic;
+    font-family: cursive;
+    color: rgb(103, 232, 255);
+}
+
+li:nth-child(3):hover a {
+    color: rgb(255, 196, 85);
+}
+
+p {
+    font-size: 2rem;
+    color: rgb(16, 16, 155);
+    outline: solid pink;
+    border-radius: 2rem;
+    line-height: 5rem;
+}
+
+p a {
+    font-style: italic;
+    font-size: 2.2rem;
+}
+
+p a, p a:visited {
+    color: rgb(255, 196, 85);
+    text-decoration: underline solid gold;
+}
+
+p a:hover, p a:focus {
+    background-color: rgb(240, 158, 203);
+    border-radius: 15% 35% 50% 65%;
+    color: rgb(16, 16, 155);
+}
+
